@@ -35,9 +35,11 @@ Transaction State
 ```
 
 Flow Chart 1
+
 ![flowchart](img/flowchart.png)
 
 Flow Chart 2
+
 ![flowchart2](img/flowchart2.png)
 
 Class Design
