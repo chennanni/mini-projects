@@ -4,8 +4,8 @@
 
 Design and implement a "Code Problem Test Engine" similar to Leetcode.
 - it defines an interface for solving code challenge
-- it allows problem admin to create problems and test cases
-- it takes user's code as input and shows whether it passes or fails the tests
+- it allows problem admin to create problem, `TestCase` and `SolutionInterface`.
+- it takes user's `Solution` code as input and shows whether it passes or fails the tests
 - it shows error trace message
 
 ## Design
@@ -18,6 +18,6 @@ Design and implement a "Code Problem Test Engine" similar to Leetcode.
 
 ![leetcode_engine_clone_workflow](img/leetcode_engine_clone_workflow.PNG)
 
-(NOTICE: in the original design, the purple colored components are intended to be common for all problems, 
-but later I found that the `TestCaseBase` still holds specific information about method name and parameters. 
-There are still efforts to be made to read these info from config.)
+NOTICE: There's two errors:
+- `SolutionInterface` should be green and positioned under `TestCase`.
+- In the original design, the purple colored components are intended to be common for all problems, but later I found that the `TestCaseBase` still holds specific information about method name and parameters. There are still efforts to be made to read these info from `SolutionInterface`.
