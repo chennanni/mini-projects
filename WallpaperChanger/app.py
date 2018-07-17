@@ -5,8 +5,8 @@ import time
 
 pic_count_day = 11
 pic_count_ngt = 9
-folder_path_day = r'C:\Users\Administrator.WIN-1J9R69V4VDR\Desktop\bg\day\\'
-folder_path_ngt = r'C:\Users\Administrator.WIN-1J9R69V4VDR\Desktop\bg\night\\'
+folder_path_day = r'C:\Users\Administrator\Desktop\bg\day\\'
+folder_path_ngt = r'C:\Users\Administrator\Desktop\bg\night\\'
 
 # https://blog.csdn.net/felixzh123/article/details/76085132
 def set_wallpaper(img_path):
