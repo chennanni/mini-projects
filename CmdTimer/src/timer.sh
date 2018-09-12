@@ -1,7 +1,5 @@
 clear
 
-start / alert.bat
-
 # get input for minutes
 echo -n "Enter countdown minutes and press [ENTER]: "
 read minutes
