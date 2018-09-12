@@ -1,18 +1,20 @@
 clear
 
-# get args
-minutes=$1
+start / alert.bat
+
+# get input for minutes
+echo -n "Enter countdown minutes and press [ENTER]: "
+read minutes
 
 # set default value
 if echo "$minutes" | egrep -q '^\-?[0-9]+$'; then 
-    # echo "$minutes is a number"
-	:
+    echo "Input is: $minutes."
 else 
     minutes=40
 fi
 seconds=$minutes*60
 
-# start the countdown
+# start countdown
 for ((i=$seconds;i>0;i--)); do
   seconds_remaining=$((i%60))
   minutes_remaining=$((i/60))
@@ -21,6 +23,6 @@ for ((i=$seconds;i>0;i--)); do
   wait
 done
 
-start /B alert.bat
+start / alert.bat
 
 clear
