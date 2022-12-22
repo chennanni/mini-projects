@@ -15,5 +15,6 @@
         <module>AlarmClock_Single</module>
         <module>AlarmClock_Multi</module>
         <module>ChangeReturn</module>
+        <module>BookStore</module>
     </modules>
 </project>
