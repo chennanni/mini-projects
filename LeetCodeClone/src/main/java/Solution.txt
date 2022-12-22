@@ -1,4 +1,3 @@
-package app.leetcode_engin_clone;
 
 public class Solution implements SolutionInterface {
     public String reverseString(String s) {

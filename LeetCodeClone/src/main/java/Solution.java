@@ -1,7 +1,5 @@
-package app.leetcode_engine_clone;
 
-// write by user
-public class SolutionDemo implements SolutionInterface {
+public class Solution implements SolutionInterface {
     public String reverseString(String s) {
     	if (s == null) return s;
         char[] word = s.toCharArray();

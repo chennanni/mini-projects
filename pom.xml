@@ -17,6 +17,7 @@
         <module>BookStore</module>
         <module>CdKeyGenerator</module>
         <module>ChangeReturn</module>
+        <module>LeetCodeClone</module>
         <module>MiniATM</module>
     </modules>
 </project>

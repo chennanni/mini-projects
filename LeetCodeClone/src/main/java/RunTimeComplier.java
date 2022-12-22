@@ -1,4 +1,3 @@
-package app.leetcode_engine_clone;
 
 import java.io.File;
 import java.io.FileReader;
@@ -35,8 +34,8 @@ public class RunTimeComplier {
 			// ### create a java file with user's solution
 			
 			// read the user input and put in a string
-			String projectBasePath = new File("").getAbsolutePath();
-			String sourcePath = projectBasePath.concat("/src/app/leetcode_engine_clone");
+			String projectBasePath = new File("").getAbsolutePath().concat("/LeetCodeClone");
+			String sourcePath = projectBasePath.concat("/src/main/java");
 			String solutionFilePath = sourcePath.concat("/Solution.txt");
 			reader = new FileReader(solutionFilePath);
 			int data = reader.read();
@@ -60,7 +59,7 @@ public class RunTimeComplier {
             fileManager = compiler.getStandardFileManager(diagnostics, null, null);
             // create a option list for running the compiler
             List<String> optionList = new ArrayList<String>();
-            String binPath = projectBasePath.concat("/bin");
+            String binPath = projectBasePath.concat("/target");
             optionList.add("-d");
             optionList.add(binPath);
             //optionList.add("-classpath");
@@ -78,7 +77,7 @@ public class RunTimeComplier {
                 URLClassLoader classLoader = new URLClassLoader(new URL[]{new File(sourcePath).toURI().toURL()});
                 //System.out.println(classLoader.getURLs()[0].toString());
                 // load the class from the class loader by name....
-                Class<?> loadedClass = classLoader.loadClass("app.leetcode_engine_clone.Solution");
+                Class<?> loadedClass = classLoader.loadClass("Solution");
                 //System.out.println("after loading class");
                 // create a new instance...
                 returnObject = loadedClass.newInstance();
