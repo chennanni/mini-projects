@@ -8,6 +8,10 @@
 - Be sure to check that they can’t withdraw more money than they have.
 - If they deposit more than $10k dollars, it lets the user know it will have to contact the bank manager to clear the deposit and won’t let them then withdraw any of that money.
 
+## Example
+
+![screenshot.PNG](img/screenshot.PNG)
+
 ## Design
 
 Here I use the [State Pattern](https://en.wikipedia.org/wiki/State_pattern). One pack of state for running the atm, another pack of state for transasction instruction. See below:
@@ -45,3 +49,7 @@ Flow Chart 2
 Class Design
 
 ![classdesign](img/classdesign.png)
+
+## Run Instruction
+
+Compile and run `Machine.java`

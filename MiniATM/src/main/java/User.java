@@ -1,5 +1,3 @@
-package app.atm;
-
 public class User {
 	private String pin;
 	private Account checkingAccount;

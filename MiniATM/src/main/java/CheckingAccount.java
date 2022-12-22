@@ -1,5 +1,3 @@
-package app.atm;
-
 public class CheckingAccount extends Account{
 	public CheckingAccount(String accountNumber, float balance) {
 		super.accountNumber = accountNumber;

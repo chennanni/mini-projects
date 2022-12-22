@@ -1,5 +1,3 @@
-package app.atm;
-
 public abstract class Account {
 	protected String accountNumber;
 	protected String accountType;

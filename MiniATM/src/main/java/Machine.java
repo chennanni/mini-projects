@@ -1,5 +1,3 @@
-package app.atm;
-
 import java.util.Scanner;
 
 public class Machine {

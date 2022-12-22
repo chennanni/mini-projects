@@ -1,5 +1,3 @@
-package app.atm;
-
 public class SavingAccount extends Account{
 	private float interest;
 	private float penalty;
