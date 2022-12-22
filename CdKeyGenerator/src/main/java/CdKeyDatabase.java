@@ -1,5 +1,3 @@
-package app.cd_key_generator;
-
 import java.util.HashMap;
 
 public class CdKeyDatabase {

@@ -1,5 +1,3 @@
-package app.cd_key_generator;
-
 public class CdKeyValidator {
 	public static boolean validateKey(String key) {
 		CdKeyDatabase db = CdKeyDatabase.getCdKeyDatabase();

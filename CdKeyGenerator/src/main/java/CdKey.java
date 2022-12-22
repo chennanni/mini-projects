@@ -1,5 +1,3 @@
-package app.cd_key_generator;
-
 public class CdKey {
 	private int id;
 	private String key;

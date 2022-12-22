@@ -1,5 +1,3 @@
-package app.cd_key_generator;
-
 import javax.crypto.Cipher;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;

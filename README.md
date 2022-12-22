@@ -11,6 +11,10 @@ I believe in the concept of great engineering skills comes from mass practicing.
 
 ## Modules
 
-- AlarmClock_Single 单个倒计时器
-- AlarmClock_Multi 多个倒计时器
-- ChangeReturn 杂货店找零系统
+| NAME              | DESCRIPTION   | STATUS |
+|:------------------|:--------------|:-------|
+| AlarmClock_Single | 倒计时器（单个）      | DONE   |
+| AlarmClock_Multi  | 倒计时器（多个）      | DONE   |
+| BookStore         | 书店系统          | TODO   |
+| CdKeyGenerator    | 游戏 CD Key 生成器 | DONE   |
+| ChangeReturn      | 杂货店找零系统       | DONE   |

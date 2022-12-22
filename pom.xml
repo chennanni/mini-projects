@@ -14,7 +14,8 @@
     <modules>
         <module>AlarmClock_Single</module>
         <module>AlarmClock_Multi</module>
-        <module>ChangeReturn</module>
         <module>BookStore</module>
+        <module>CdKeyGenerator</module>
+        <module>ChangeReturn</module>
     </modules>
 </project>

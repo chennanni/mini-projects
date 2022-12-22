@@ -3,6 +3,8 @@
 Create a program which generates keys for an application that you may put on a CD. 
 Classic example would be the keys you use for installation of a major software product from Microsoft or Adobe.
 
+![screenshot.png](img/screenshot.PNG)
+
 ## General Design
 
 - basic: design a black box containing a series of tests, only specific input/cd-key can pass the test
@@ -16,16 +18,16 @@ Classic example would be the keys you use for installation of a major software p
 
 Generation
 
-- First, I generate a random 11 char long string, then I use a checksum algorithm to generate the last char, combined together into a 12 char long string.
-- This 12 long char string is inserted into the database.
-- Then, I encryt the 12 char long string with base 64 encryption and get a 24 char long string. 
+- First, I generate a random `11 char string`, then I use a **checksum algorithm** to generate the last char, combined into a `12 char string`.
+- This 12 char string is inserted into the **database**.
+- Then, I encrypt the 12 char string with **base 64 encryption** and get a `24 char string`. 
 - This string is the CD-Key for end user.
 
 Validation
 
-- First, I decript the 24 char long CD-Key, get a 12 char long string.
+- First, I decrypt the `24 char string` CD-Key, get a `12 char string`.
 - Then, I check if this string pass the checksum test.
-- Also, I check if this string is valid in the database.
+- Then, I check if this string is valid in the database.
 - Only if the above two tests are passed, the CD-Key is recognized as valid.
 
 ## Special Run Instruction
