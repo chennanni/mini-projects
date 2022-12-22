@@ -4,7 +4,7 @@
 
 The user can set up multiple alarm clocks at the same time.
 
-![screenshot.png](img/screenshot.png)
+![screenshot.png](img/screenshot.PNG)
 
 ## Run instruction
 Import necessary lib, compile the java file under app package, run the `main()` inside `Clock.java`.

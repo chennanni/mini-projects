@@ -1,5 +1,3 @@
-package com.chennanni.clock;
-
 import java.util.Timer;
 import java.util.TimerTask;
 

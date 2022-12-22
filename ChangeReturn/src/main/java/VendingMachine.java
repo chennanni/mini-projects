@@ -1,5 +1,3 @@
-package change_return.app;
-
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Iterator;

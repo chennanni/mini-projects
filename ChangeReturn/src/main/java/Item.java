@@ -1,5 +1,3 @@
-package change_return.app;
-
 public class Item {
 	private int tag;
 	private String name;
