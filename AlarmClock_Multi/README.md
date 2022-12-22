@@ -1,9 +1,10 @@
-# Alarm Clock 2
+# Alarm Clock - Multi
 
 ## What
-- Simple implementation of an alarm clock with multiple threads.
-- Take system input as name and count down time, print alert message when the time is up.
-- The system runs constantly and wait for user input for creating new alarm unless you enter "q" for quit
+
+The user can set up multiple alarm clocks at the same time.
+
+![screenshot.png](img/screenshot.png)
 
 ## Run instruction
 Import necessary lib, compile the java file under app package, run the `main()` inside `Clock.java`.
